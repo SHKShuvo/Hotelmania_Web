@@ -1,0 +1,92 @@
+html,body{
+	background : url('Images/log/dss.jpg') no-repeat center fixed;
+	
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+body{
+	margin : 0;	
+}
+
+#back a{
+	color : #5DADE2;
+	background-color : #8E44AD;
+	padding : 5px;
+	text-align : center;
+}
+
+.contain{
+	width : 500px;
+	height : 500px;
+	text-align : center ;
+	background-color : rgba(52,73,94,0.7);
+	border-radius : 5px;
+	margin : 0 auto;
+	margin-top : 150px;
+}
+
+.contain img{
+	width : 130px;
+	height : 130px;
+	margin-top : -65px;
+	margin-bottom : 30px;	
+}
+
+input{
+	height : 45px;
+	width : 300px;
+	margin-bottom : 20px;
+	background-color : #fff;
+	padding-left : 20px;
+    border-radius : 5px;	
+}
+
+/*.form-input::before{
+	 content : "\f007";
+	 position : absolute;
+	 font-family: "FontAwesome";
+	 padding-left : 5px;
+	 padding-top : 5px;
+	 font-size : 30px;
+}*/
+
+
+
+.btn-signup{
+	padding : 15px 25px;
+	color : #fff;
+	background-color : #2ECC71;
+	border : none;
+	border-radius : 5px;
+	border-bottom : 5px solid #27AE60;	
+}
+
+.btn-signup:hover{
+	background-color : #E74C3C;
+	border-bottom : 5px solid #EC7063;
+}
+
+a {
+   text-decoration : none;
+   color : white;
+   font-family : sans sherif;   
+}
+
+a:hover {
+	color : #800080;
+	font-weight : bold;
+}
+
+.error {
+	width : 92%;
+	margin : 0px auto;
+	padding : 10px;
+	border: 1px solid #a94442;
+	color: #a94442;
+	background : #f2dede;
+	border-radius : 5px;
+	text-align : left;	
+}
+

@@ -1,0 +1,78 @@
+html,body{
+	background : url('Images/Background/5.jpg') no-repeat center fixed;
+	
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+body{
+	margin : 0;	
+}
+
+
+.contain{
+	width : 600px;
+	height : 700px;
+	text-align : center ;
+	background-color : rgba(113, 10, 169, 0.6);
+	border-radius : 5px;
+	margin : 0 auto;
+	margin-top : 60px;
+}
+
+.contain img{
+	width : 130px;
+	height : 130px;
+	margin-top : -65px;
+	margin-bottom : 30px;	
+}
+
+input{
+	height : 38px;
+	width : 300px;	
+	margin-bottom : 20px;
+	background-color : #fff;
+	padding-left : 40px;
+	border-radius : 5px;
+		
+}
+
+.form-input::before{
+	 /*content : "\f007";*/
+	 position : absolute;	 
+	 /*font-family: "FontAwesome";*/
+	 padding-left : 8px;
+	 padding-top : 8px;
+	 font-size : 35px;
+}
+
+.form-input:nth-child(2)::before{
+	/*content : "\f023";*/
+}
+
+.btn-book{
+	padding : 5px 25px;
+	color : #fff;
+	background-color : #2ECC71;
+	border : none;
+	border-radius : 5px;
+	border-bottom : 5px solid #27AE60;	
+}
+
+.btn-book:hover{
+	background-color : #E74C3C;
+	border-bottom : 5px solid #EC7063;
+}
+
+a {
+   text-decoration : none;
+   color : white;
+   font-family : sans sherif;   
+}
+
+a:hover {
+	color : #800080;
+	font-weight : bold;
+}
+

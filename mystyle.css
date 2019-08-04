@@ -1,0 +1,197 @@
+html {
+	background-color : #F5CBA7;	
+}
+
+* {
+	margin : 0px;
+	padding : 0px;
+}
+.container {
+	/*color : white;*/
+}
+
+.wrapper { 
+    width : 1080px;
+    margin : auto;	
+}
+
+.dark {
+    background-color : #17202A	
+}
+
+.semidark {
+	background-color : #273746
+}
+
+.light {
+	background-color : #F0B27A;
+}
+
+#left {
+	display : inline-block;
+	/*padding-left : 10px;*/
+	color : white;
+}
+
+#right {
+	float : right;	
+}
+
+#right a {
+	color : white;
+	padding-right : 20px;	
+}
+
+
+#top_div {
+	height : 60px;
+	line-height : 60px;
+}
+
+#logo_left {
+	display :inline-block;
+	padding-left : 20px;
+}
+
+#logo_right {
+	float : right;
+}
+
+#tslide {
+	color : white;
+}
+
+#slider ul {
+	list-style-type: none;
+	padding : 0px;
+	margin : 0px;
+    overflow : hidden;	
+}
+
+#slider ul:hover {
+	/*background-color : brown;*/
+}
+
+#slider ul li {
+	 float : left;
+}
+
+#slider ul li a {
+	text-decoration: none;
+	color : #ffffff;
+	text-allign : center;
+    padding :15px;
+    display : block;	
+}
+
+#slider ul li a:hover {
+	background-color : #E59866;
+	color : white;	
+}
+
+#slider ul li ul li {
+	display : none;
+	
+}
+
+#slider ul li:hover ul li{
+	 display : block;
+} 
+
+#image img{
+	width : 1048px;
+	height : 600px;
+    border : 1px solid gray;
+    padding : 15px;	
+	box-shadow : 5px 5px 10px gray;
+}
+
+h1,h2,h3,li {
+	text-align : center;
+	font-family: 'Atma';font-size: 22px;
+}
+
+p {
+	text-align : justify;
+}
+
+#text_image {
+	width : 120px;
+	margin : auto;
+	margin-top : 8px;
+}
+
+#dtext {
+	padding : 30px;
+	width : 290px;
+	margin : 3px;
+	display : inline-block;
+	margin-top : 15px;
+	box-shadow : 5px 5px 10px gray;
+}
+
+#bottom_left {
+	display : inline-block;
+	width : 600px;
+	margin-top : 15px;
+}
+
+#bottom_left p {
+	margin-top : 5px;
+}
+
+#bleft_image img{
+	width : 260px;
+	height : 180px;
+    padding : 5px;	
+	margin : 5px;
+	border : 1px solid gray;
+	border-radius : 8px;
+}
+
+
+#bleft_text {
+	text-align : left;
+}
+
+
+#bottom_right {
+	float : right;
+	width : 420px;
+	margin-top : 15px;	
+}
+
+#clear {
+	clear : both;
+}
+
+#latest_news img {
+	width : 120px;
+	height : 90px;
+	padding : 3px;
+	border : 1px solid gray;
+	border-radius : 8px;
+}
+
+#latest_news {
+	height : 150px;
+}
+
+#footer_section {
+	padding : 30px;
+	width : 290px;
+	margin : 3px;
+	display : inline-block;
+	margin-top : 15px;
+	box-shadow : 5px 5px 10px gray;
+	color : white;
+}
+
+
+
+
+
+
+
+ 
+

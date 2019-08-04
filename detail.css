@@ -1,0 +1,113 @@
+#galary img
+	{
+	    width: 180px;
+		height: 130px;
+		padding: 3px;
+	    border : 1px solid black;
+		border-radius : 3px;
+	}
+	
+/*body
+	{
+	    font-family: sans-serif;
+		font-size: 1em;
+	    text-align: center;
+		background-color: #600e0b;
+				
+	}*/
+			
+/*div
+	{
+	    padding: 20px;
+	}*/
+	
+#galary table 
+{				
+	 background-color : #BDC3C7;
+	 width: 60%;
+	 border: 2px solid black;
+     border-radius : 20px;								
+}
+			
+#galary th
+	{
+		font-size: 2em;
+		background-color: pastels;
+	    padding: 20px;
+}
+			
+			
+#galary td
+	{
+	   padding: 20px;				
+	}
+						
+			
+#data table
+	{				
+		width: 60%;
+		border: 2px solid gray;
+        margin-top : 30px;
+		margin-bottom : 30px;
+		/*border-collapse: collapse;*/
+	}
+			
+#data th
+	{
+	    font-size: 25px;
+	    background-color: pastels;
+		padding: 20px;
+				
+		border: 1px solid black;
+		border-collapse: collapse;
+			
+		padding: 20px;
+		text-align: center;
+	
+}
+			
+#data td
+	{
+	    border: 1px solid black;
+		border-collapse: collapse;
+				
+		padding: 20px;
+		text-align: center;
+	}
+			
+#data tr:nth-child(even)
+	{
+		background-color: #e8e8e8;
+	}
+			
+#data tr:nth-child(odd)
+	{
+		background-color: white;
+	}
+			
+			
+			
+#details table
+	{
+		background-color: #EDBB99;
+		width: 60%;
+				
+		border: 2px solid black;
+		border-radius : 20px;
+		margin-top : 30px;
+    }
+						
+#details th
+	{
+	    font-size: 25px;
+		background-color: pastels;
+				
+		text-align: left;
+		padding: 20px;
+    }
+			
+#details td
+	{
+		padding-left: 20px;
+		padding-bottom: 5px;
+	}
